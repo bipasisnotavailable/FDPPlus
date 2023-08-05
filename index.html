@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDPPlus</title>
+    <style>
+        body {
+            background-color: hsla(0,0%,100%,1);
+            background-image: radial-gradient(at 100% 78%, hsla(107,81%,52%,1) 0px, transparent 50%),
+                              radial-gradient(at 100% 25%, hsla(70,100%,50%,1) 0px, transparent 50%),
+                              radial-gradient(at 0% 100%, hsla(233,98%,79%,1) 0px, transparent 50%),
+                              radial-gradient(at 26% 37%, hsla(180,100%,70%,1) 0px, transparent 50%),
+                              radial-gradient(at 0% 0%, hsla(304,100%,50%,1) 0px, transparent 50%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Verdana, sans-serif;
+
+        }
+        #main-container {
+            width: 700px;
+            height: 200px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+        }
+        .header-box {
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+            padding: 10px 0;
+        }
+        .sub-header {
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+            padding: 10px 0;
+        }
+        .small-box {
+            width: 75px;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            margin-left: 14px;
+            margin-right: 14px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+        }
+        .small-box img {
+            max-width: 40px;
+            max-height: 40px;
+        }
+        .small-boxes-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div class="header-box">FDP+</div>
+        <div class="sub-header">v1.0.0</div>
+        <div class="small-boxes-container">
+            <div class="small-box" onclick="window.location.href='https://mcmasters.mysellix.io/de/';">
+                <img src="accounts.png" alt="Image 1">
+            </div>
+            <div class="small-box" onclick="window.location.href='https://www.youtube.com/@heisthacks';">
+                <img src="media.png" alt="Image 2">
+            </div>
+            <div class="small-box" onclick="window.location.href='https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html';">
+                <img src="forge.png" alt="Image 3">
+            </div>
+            <div class="small-box" onclick="window.location.href='https://github.com/Davidisnotavailable/FDPPlus';">
+                <img src="download.png" alt="Image 4">
+            </div>
+            <div class="small-box" onclick="window.location.href='https://www.youtube.com/@David.9916';">
+                <img src="love.png" alt="Image 5">
+            </div>
+            <div class="small-box" onclick="window.location.href='https://www.youtube.com/watch?v=6m58-NJRR9M';">
+                <img src="info.png" alt="Image 6">
+            </div>
+            <div class="small-box" onclick="window.location.href='https://bigrat.monster';">
+                <img src="door.png" alt="Image 7">
+            </div>
+        </div>
+        <div class="sub-header">Made by BipasMC with love.</div>
+    </div>
+</body>
+</html>
